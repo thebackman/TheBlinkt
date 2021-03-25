@@ -19,17 +19,9 @@ if color == "green":
     g = 175
     b = 20 
 
-# print(color)
-
 clear()
 for i in range(8):
-    # print(i)
     set_pixel(i, r, g, b)
 show()
 time.sleep(1)
 clear()
-
-
-
-
-
